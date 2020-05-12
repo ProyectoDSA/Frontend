@@ -34,7 +34,7 @@ function checkCookie() {
 }
 
 $('#login').on('submit', function(e){
-    user = $("#loginUsername").val();
+    user = $("#loginName").val();
     var myObj = {
         username: $("#loginName").val(),
         password: $("#loginPassword").val()
